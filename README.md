@@ -58,8 +58,13 @@ Below is the screenshot of the output by analyzing Code.py using pylint:
 
 Understanding the erros:
 1,2,3,4: This errors show us the unnecessary use of spaces.
+
 5: This error is shown because the file doesn't have an empty line at the end of the file. It is recommended in the python source code to have a newline at the end.
+
 6:  This errors show us the unnecessary use of spaces.
+
 7: This error is because the source code doesn't include description of this module for example what is does, how to use its classes, we can solve this error by including the description between """ and """ at the top.
+
 8: This error is regarding the name used to address the souce code. As python suggests to use the snake-case (i.e python_code), this source doesn't have that naming convention. We can solve this error by naming the file as code2_198 or similar.
+
 9,10: This error shows that mathematical variables should be defined in the uppercase. Here, num and factorial is in lowercase. We can solve this by naming it NUM and FACTORIAL.
