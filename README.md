@@ -56,7 +56,7 @@ Below is the screenshot of the output by analyzing Code.py using pylint:
 9.Code2.py:4:0: C0103: Constant name "num" doesn't conform to UPPER_CASE naming style (invalid-name)
 10. Code2.py:9:0: C0103: Constant name "factorial" doesn't conform to UPPER_CASE naming style (invalid-name)
 
-Understanding the erros:
+Understanding the erroRs:
 1,2,3,4: This errors show us the unnecessary use of spaces.
 
 5: This error is shown because the file doesn't have an empty line at the end of the file. It is recommended in the python source code to have a newline at the end.
